@@ -1,0 +1,16 @@
+div#padd-categories { 
+	background: transparent url('images/bg-cat.gif') left top repeat-x; 
+}
+div#padd-categories ul { 
+	background: transparent url('images/bd-cat-item.gif') left top no-repeat;
+}
+div#padd-categories ul li { 
+	background: transparent url('images/bd-cat-item.gif') right top no-repeat;
+}
+div#padd-categories ul li a:link, div#padd-categories ul li a:visited {
+	background: transparent url('images/bg-cat-item.gif') left top repeat-x;
+}
+div#padd-categories ul li a:hover, div#padd-categories ul li a:active,
+div#padd-categories ul li.current-cat a:link, div#padd-categories ul li.current-cat a:visited {
+	background-position: left bottom;
+}

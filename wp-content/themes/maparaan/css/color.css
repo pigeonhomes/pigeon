@@ -1,0 +1,78 @@
+/*
+Section: Color
+*/
+blockquote { border-color: #e0e0da; }
+a:link, a:visited, a:hover, a:active { color: #933; }
+
+div#padd-header { background: #48423d; }
+div#padd-header div.padd-box-title h1 { background: transparent url('../images/site-name.png') left top no-repeat; }
+
+div#padd-header div.padd-box-search input { color: #9a9a9a; background: transparent url('../images/input-search.png') top left no-repeat; border-color: none; }
+
+div#padd-body { background: #eeeee5 url('../images/bg-body.gif') left top repeat-x; }
+
+div#padd-featured { border-color: #fff; }
+
+div#padd-featsubs { background: transparent url('../images/bg-featsubs-m.gif') center top repeat-y; }
+div#padd-featsubs-wrapper { background: transparent url('../images/bg-featsubs-t.gif') center top no-repeat; }
+div#padd-featsubs div.padd-clear { background: transparent url('../images/bg-featsubs-b.gif') center bottom no-repeat; }
+
+div#padd-subscribed ul li { background: transparent url('../images/bd-subscribed-list-item.gif') left bottom repeat-x; }
+div#padd-subscribed ul li.facebook { background: transparent none; }
+div#padd-subscribed ul li.rss a span { background: transparent url('../images/bg-subscribed-list-item-rss.png') top left no-repeat; }
+div#padd-subscribed ul li.email a span { background: transparent url('../images/bg-subscribed-list-item-email.png') top left no-repeat; }
+div#padd-subscribed ul li.twitter a span { background: transparent url('../images/bg-subscribed-list-item-twitter.png') top left no-repeat; }
+div#padd-subscribed ul li.facebook a span { background: transparent url('../images/bg-subscribed-list-item-facebook.png') top left no-repeat; }
+div#padd-subscribed ul li a:link, div#padd-subscribed ul li a:visited { background: transparent url('../images/bg-subscribed-list-item.png') top left no-repeat; }
+div#padd-subscribed ul li a:hover, div#padd-subscribed ul li a:active { background: transparent url('../images/bg-subscribed-list-item.png') bottom left no-repeat; }
+
+div.padd-post-group-result div.padd-post-group-title { background: transparent url('../images/bg-sidebar-title.png') 0 5px no-repeat; border-bottom-color: #e0e0da; }
+div.padd-post-group-result div.padd-post-group-title h2 { color: #b14934; }
+
+div.padd-post-item h2, div.padd-post-item h2 a { color: #b14934; }
+
+div.padd-post-item-index div.padd-post-item-title { border-bottom-color: #e0e0da; }
+div.padd-post-item-index p.readmore a { background: transparent url('../images/button-read-more.png') left top no-repeat; }
+div.padd-post-item-single div.padd-post-item-title { border-bottom-color: #e0e0da; }
+
+div.padd-post-item-index-page-1 div.padd-post-item-title { background: transparent url('../images/bg-title-page-1.png') 0 5px no-repeat; }
+div.padd-post-item-index-page-2 div.padd-post-item-title { background: transparent url('../images/bg-title-page-2.png') 0 5px no-repeat; }
+
+div.padd-post-box h3 { border-bottom-color: #e0e0da; }
+div.padd-post-box-about-author h3 { background: transparent url('../images/bg-post-box-author.png') 0 0 no-repeat; }
+div.padd-post-box-sb h3 { background: transparent url('../images/bg-post-box-spread-love.png') 0 0 no-repeat; }
+div.padd-post-box-related h3 { background: transparent url('../images/bg-post-box-related-posts.png') 0 0 no-repeat; }
+div.padd-post-box-comments h3 { background: transparent url('../images/bg-post-box-comments.png') 0 0 no-repeat; }
+div.padd-post-box-trackbacks h3 { background: transparent url('../images/bg-post-box-trackbacks.png') 0 0 no-repeat; }
+div.padd-post-box-reply h3 { background: transparent url('../images/bg-post-box-comment-add.png') 0 0 no-repeat; }
+
+li.odd div.padd-comment-details-interior { background: transparent url('../images/bg-comment-even-detail.png') center left repeat-y; }
+li.odd div.padd-comment-details-interior div.padd-tb { background: transparent url('../images/bg-comment-even-detail-tb.png') top left no-repeat; }
+li.odd div.padd-comment-details-interior-wrapper { background: transparent url('../images/bg-comment-even-callout.png') top left no-repeat; }
+
+li.even div.padd-comment-details-interior { background: transparent url('../images/bg-comment-odd-detail.png') center left repeat-y; }
+li.even div.padd-comment-details-interior div.padd-tb { background: transparent url('../images/bg-comment-odd-detail-tb.png') top left no-repeat; }
+li.even div.padd-comment-details-interior-wrapper { background: transparent url('../images/bg-comment-odd-callout.png') top left no-repeat; }
+
+form#comment-form p.input input { color: #000; background: #fff none; border-color: #ddd; }
+form#comment-form small { color: #b7b7b7; }
+form#comment-form textarea { color: #000; background: #fff none; border-color: #ddd; }
+form#comment-form button { background: transparent url('../images/button-comments-submit.png') left top no-repeat; }
+
+
+div#padd-sidebar div.padd-box h2 { background: transparent url('../images/bg-sidebar-title.png') 0 5px no-repeat; color: #b14934; border-bottom-color: #e0e0da; }
+div#padd-sidebar div.padd-box ul li { background: transparent url('../images/border-sidebar-list-item.gif') left bottom repeat-x; }
+div#padd-sidebar div.padd-box ul li span.padd-wrap { background: transparent url('../images/bullet-sidebar-list-item.gif') 3px 16px no-repeat; }
+div#padd-sidebar div.padd-box ul li span.padd-wrap:hover { background-color: #ebebd9; }
+
+div#padd-footer-content { background: #48423d none; }
+
+div#padd-footer div.padd-box h2 { color: #fff; }
+div#padd-footer div.padd-box ul { color: #999; background: transparent url('../images/border-footer-list.gif') left top repeat-x; }
+div#padd-footer div.padd-box ul li { color: #999; background: transparent url('../images/border-footer-list.gif') left bottom repeat-x; }
+div#padd-footer div.padd-box ul li span.padd-wrap { color: #999; background: transparent url('../images/bullet-footer-list-item.gif') 3px 10px no-repeat; }
+div#padd-footer div.padd-box ul li span.padd-wrap:hover { background-color: #56504b; }
+div#padd-footer a:link, div#padd-footer a:visited, div#padd-footer a:hover, div#padd-footer a:active { color: #fff; }
+
+div#padd-footer-final { color: #48423d; background: #322d29 none; border-top-color: #5f5953; }
+div#padd-footer-final a:link, div#padd-footer-final a:visited, div#padd-footer-final a:hover, div#padd-footer-final a:active { color: #48423d; }

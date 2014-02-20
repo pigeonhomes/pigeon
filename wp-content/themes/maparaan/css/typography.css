@@ -1,0 +1,27 @@
+/*
+Section: Typography
+*/
+
+body { font: normal 12px/24px Helvetica,Arial,sans-serif; }
+input, select, option, textarea { font: normal 12px/16px Helvetica,Arial,sans-serif; }
+blockquote { font-style: italic; }
+
+a:link, a:visited, a:hover, a:active { font-weight: bold; text-decoration: none; }
+
+div#padd-header div.padd-box-title h1 a { font: bold 36px/63px Georgia,serif; }
+div#padd-header div.padd-box-search input { font: 14px/16px 'Lucida Grande','Lucida Sans',Helvetica,Arial,sans-serif; }
+
+div.padd-post-group-result div.padd-post-group-title h2 { font: normal 24px/43px Georgia,serif; text-shadow: 1px 1px #fff; }
+
+div.padd-post-item h2, div.padd-post-item h2 a { font: normal 24px/43px Georgia,serif; text-shadow: 1px 1px #fff; }
+
+div.padd-post-item-single div.padd-post-box h3 { font: normal 18px/50px Georgia,serif; text-shadow: 1px 1px #fff; }
+
+div#padd-sidebar div.padd-box h2 { font: normal 24px/43px Georgia,serif; text-shadow: 1px 1px #fff; }
+
+div#padd-footer div.padd-box h2 { font: normal 16px/32px Georgia,serif; text-transform: uppercase; }
+div#padd-footer div.padd-box ul li { font: normal 11px/24px Helvetica,Arial,sans-serif; }
+div#padd-footer div.padd-box ul li a { font: normal 11px/24px Helvetica,Arial,sans-serif; }
+
+div#padd-footer-final p { font: normal 10px/46px 'Lucida Grande','Lucida Sans',serif; }
+div#padd-footer-final p a { text-decoration: none; font: normal 10px/46px 'Lucida Grande','Lucida Sans',serif;  }

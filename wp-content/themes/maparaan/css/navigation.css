@@ -1,0 +1,27 @@
+
+
+div#padd-categories { height: 39px; background: transparent url('../images/bg-cat.gif') left top repeat-x; }
+div#padd-categories h2 { display: none; }
+div#padd-categories div.padd-interior { width: 960px; height: 39px; margin: 0 auto; padding: 0; }
+div#padd-categories ul { 
+	display: block; list-style: none; margin: 0; padding: 0 0 0 2px; height: 39px;
+}
+div#padd-categories ul li { 
+	display: block; margin: 0; padding: 0 2px 0 0; float: left; height: 39px;
+}
+div#padd-categories ul li a:link, div#padd-categories ul li a:visited {
+	font: bold 12px/39px Arial,Helvetica,sans-serif; color: #fff;
+	text-shadow: 1px 1px #000; text-transform: uppercase; letter-spacing: 0.1em;
+	display: block; margin: 0; padding: 0 15px; height: 39px;
+	text-decoration: none;
+}
+div#padd-categories ul li a:hover, div#padd-categories ul li a:active,
+div#padd-categories ul li.current-cat a:link, div#padd-categories ul li.current-cat a:visited {
+	background-position: left bottom;
+}
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+div.padd-pagination { 
+	margin: 20px 0 0 0;
+	height: 30px; 
+}
+
+div.padd-pagination span, div.padd-pagination a {
+	display: block; float: left; height: 28px;
+	font: normal 12px/28px Helvetica,Arial,sans-serif;
+	margin: 0 10px 0 0; padding: 0 10px; text-decoration: none;
+	border: 1px solid #ccc; 
+	color: #666;
+}
+
+div.padd-pagination span.padd-current, div.padd-pagination span.padd-extend, div.padd-pagination a:hover, div.padd-pagination a:active {
+	color: #333;
+	background: #f1ede5 none;
+	border: 1px solid #c6c6c6;
+}

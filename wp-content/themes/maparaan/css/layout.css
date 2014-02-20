@@ -1,0 +1,154 @@
+/*
+Section: Layout
+*/
+
+body { margin: 0; padding: 0; }
+form { margin: 0; padding: 0; display: block; }
+blockquote { margin: 0; padding: 1em 3em; border: solid 1px; }
+
+.padd-no-display { display: none; }
+.padd-clear { clear: both; }
+
+
+div#padd-container { }
+
+div#padd-header { height: 101px; }
+div#padd-header-wrapper { width: 960px; height: 101px; margin: 0 auto; }
+div#padd-header div.padd-box h2 { display: none; }
+
+div#padd-header div.padd-box-title { height: 63px; margin: 19px 0 0 0; float: left; }
+div#padd-header div.padd-box-title div.padd-logo { float: left; }
+div#padd-header div.padd-box-title div.padd-logo a { display: block; margin: 0; padding: 0; border: 0 none; }
+div#padd-header div.padd-box-title div.padd-logo img { display: block; width: 63px; height: 63px; margin: 0; padding: 0; border: 0 none; }
+div#padd-header div.padd-box-title h1 { display: block; margin: 0; padding: 0; float: left; }
+div#padd-header div.padd-box-title h1 a { display: block; width: 270px; height: 63px; margin: 0; padding: 0; text-indent: -999999px; }
+div#padd-header div.padd-box-title p { display: none; }
+
+div#padd-header div.padd-box-search { height: 36px; margin: 33px 0 0 0; float: right; }
+div#padd-header div.padd-box-search p { display: block; margin: 0; padding: 0; }
+div#padd-header div.padd-box-search input { width: 170px; border: 0 none; padding: 10px 50px 12px 15px; margin: 0; }
+div#padd-header div.padd-box-search span.padd-search-text { display: none; }
+div#padd-header div.padd-box-search button { display: none; }
+
+div#padd-body {}
+div#padd-body-wrapper { width: 960px; margin: 0 auto; padding: 40px 0; }
+
+div#padd-featsubs { margin: 0 0 39px 0; }
+div#padd-featsubs-wrapper { padding: 11px 0 0 10px; }
+div#padd-featsubs div.padd-clear { height: 11px; margin: 0 0 0 -10px; }
+
+div#padd-featured { float: left; width: 658px; border: 1px solid; }
+div#padd-featured h2 { display: none; }
+div#padd-featured ul { display: block; list-style-type: none; margin: 0; padding: 0; }
+div#padd-featured ul li { display: block;  margin: 0; padding: 0; }
+div#padd-featured ul img { border: 0 none; }
+
+div#padd-subscribed { float: right; width: 289px; margin: 2px 1px 0 0; }
+div#padd-subscribed h2 { display: none; }
+div#padd-subscribed ul { display: block; list-style: none; margin: 0; padding: 0; }
+div#padd-subscribed ul li { display: block; list-style: none; margin: 0; padding: 0 0 2px 0; }
+div#padd-subscribed ul li.facebook { padding: 0; }
+div#padd-subscribed ul li a { display: block; }
+div#padd-subscribed ul li a span { display: block; width: 289px; height: 68px; text-indent: -999999px; }
+div#padd-subscribed ul li span { display: none; }
+
+div#padd-content { width: 625px; float: left; }
+div#padd-sidebar { width: 290px; float: right; }
+
+div.padd-post-group-index div.padd-post-group-title { display: none; }
+
+div.padd-post-group-result div.padd-post-group-title { padding: 0 0 5px 40px; margin: 0 0 1em 0; border-bottom: 3px solid; }
+div.padd-post-group-result div.padd-post-group-title h2 { display: block; margin: 0; padding: 0; }
+
+div.padd-post-item div.padd-post-item-title { margin: 0 1em 0 0; }
+div.padd-post-item h2 { display: block; margin: 0; padding: 0; }
+
+div.padd-post-item-index { width: 290px; float: left; }
+div.padd-post-item-index div.padd-post-item-title { margin: 0 0 1em 0; padding: 0 0 5px 40px; border-bottom: 3px solid; }
+div.padd-post-item-index p { display: block; margin: 0; padding: 0; }
+div.padd-post-item-index p.readmore { display: block; margin: 1em 0 0 0; padding: 0; height: 24px; }
+div.padd-post-item-index p.readmore a { display: block; margin: 0; padding: 0; width: 74px; height: 24px; float: right; text-indent: -999999px; }
+
+
+div.padd-post-item-index-page-1 { margin: 0 45px 0 0; }
+
+div.padd-post-item-result { margin: 0 0 30px 0; }
+div.padd-post-item-result img.header { border: 0 none; float: left; margin: 10px 0 0 0; }
+div.padd-post-item-result div.padd-post-item-title { margin: 0 0 0 135px; }
+div.padd-post-item-result div.padd-post-item-title h2 { margin: 0 0 0.2em 0; padding: 0; }
+div.padd-post-item-result div.padd-post-item-entry { margin: 0 0 0 135px; }
+div.padd-post-item-result div.padd-post-item-entry p { display: block; margin: 0; padding: 0; }
+
+div.padd-post-item-single div.padd-post-item-title { margin: 0 0 1em 0; padding: 0 0 5px 0; border-bottom: 3px solid; }
+
+div.padd-post-box { margin: 0 0 20px 0; }
+div.padd-post-box-title { margin: 0 0 10px 0; }
+div.padd-post-box h3 { display: block; margin: 0; padding: 0 0 0 45px; height: 50px; border-bottom: 3px solid; }
+
+div.padd-post-box-about-author img { float: left; margin: 0 10px 0 0; }
+
+div.padd-post-box-sb div.padd-interior { height: 62px; min-height: 62px; }
+div.padd-post-box-sb div.padd-interior ul { display: block; list-style: none; margin: 11px 0 0 36px; padding: 0; }
+div.padd-post-box-sb div.padd-interior ul li { display: block; margin: 10px 15px 0 0; padding: 0; float: left; }
+div.padd-post-box-sb div.padd-interior ul li.icon-tweetmeme-mini { margin: 18px 0 0 0; }
+div.padd-post-box-sb div.padd-interior ul li a { display: block; float: left; }
+div.padd-post-box-sb div.padd-interior ul li a img { border: 0 none; }
+
+ol.padd-comments-list { display: block; list-style: none; margin: 0; padding: 0; }
+ol.padd-comments-list li.comment { display: block; list-style: none; margin: 0; padding: 0 0 25px 0; }
+
+div.padd-comment div.padd-comment-author { width: 80px; float: left; }
+div.padd-comment div.padd-comment-author img { margin: 0 0 10px 0; }
+div.padd-comment div.padd-comment-author span { display: block; margin: 0 0 2px 0; }
+div.padd-comment div.padd-comment-details-interior { width: 524px; float: left; margin: 0 0 0 20px; }
+div.padd-comment div.padd-comment-details-interior div.padd-tb { height: 1px; }
+div.padd-comment div.padd-comment-details-interior-wrapper { padding: 0 20px 0 50px; min-height: 45px; }
+
+div.padd-comment div.padd-comment-details-interior ol, div.padd-comment div.padd-comment-details-interior ul { padding-top: 1em; padding-bottom: 1em; }
+
+ol.padd-trackbacks-list { margin: 0 0 0 3em; padding: 0; }
+
+div.padd-post-box-reply p.cancel-comment-reply { float: right; margin: -1em 0 0 0; }
+
+form#comment-form { display: block; margin: 0; padding: 0; }
+form#comment-form p { display: block; margin: 0 0 20px 0; padding: 0; line-height: 27px; }
+form#comment-form p.input label { display: none; }
+form#comment-form p.input input { width: 390px; padding: 10px; border: 1px solid; }
+form#comment-form p.textarea { display: block; margin: 5px 0 10px 0;  }
+form#comment-form p.textarea label { display: none; }
+form#comment-form p.button { display: block; text-align: left; float: right; margin: 0; padding: 0; }
+form#comment-form p.subscribe-to-comments { margin: 0; padding: 0; float: left; }
+form#comment-form textarea { width: 558px; height: 148px; padding: 5px 10px; border: 1px solid; }
+form#comment-form button { display: block; width: 109px; height: 40px; margin: 0; padding: 0; float: right; border: 0; cursor: pointer; }
+form#comment-form button span { display: none; }
+
+div#padd-sidebar div.padd-box { margin: 0 0 30px 0; }
+div#padd-sidebar div.padd-box h2 { display: block; margin: 0; padding: 0 0 5px 40px; border-bottom: 3px solid; }
+div#padd-sidebar div.padd-box ul { display: block; margin: 0; padding: 1px 0 0 0; list-style-type: none; }
+div#padd-sidebar div.padd-box ul li { display: block; margin: 0; padding: 0 0 1px 0; list-style-type: none; }
+div#padd-sidebar div.padd-box ul li span.padd-wrap { display: block; margin: 0; padding: 7px 10px 7px 16px; }
+
+div#padd-sidebar div.padd-box-tweet div.padd-interior { padding: 10px 0 0 0; }
+
+div#padd-sidebar div.padd-box-ads div.padd-interior { text-align: center;  padding: 10px 0 0 0; }
+div#padd-sidebar div.padd-box-ads div.padd-interior img { border: 0 none; vertical-align: top; }
+
+div#padd-footer-content-wrapper { width: 960px; margin: 0 auto; padding: 20px 0; }
+div#padd-footer-final-wrapper { width: 960px; margin: 0 auto; padding: 0; }
+
+div#padd-footer div.padd-box { width: 290px; float: left; }
+div#padd-footer div.padd-box h2 { display: block; margin: 0 0 10px 0; padding: 0; }
+div#padd-footer div.padd-box ul { display: block; margin: 0; padding: 1px 0 0 0; list-style-type: none; }
+div#padd-footer div.padd-box ul li { display: block; margin: 0; padding: 2px 0 3px 0; list-style-type: none; text-indent: 16px; }
+div#padd-footer div.padd-box ul li span.padd-wrap { display: block; margin: 0; padding: 0; }
+
+div#padd-footer div.padd-box-small { width: 122px; }
+
+div#padd-footer div.padd-footer-popular-posts { margin: 0 46px 0 0; }
+div#padd-footer div.padd-footer-recent-comments { margin: 0 44px 0 0; }
+div#padd-footer div.padd-footer-pages { margin: 0 46px 0 0; }
+
+div#padd-footer-final { height: 46px; padding: 0 10px; border-top: 1px solid; }
+div#padd-footer-final p { display: block; margin: 0; padding: 0; height: 46px; }
+div#padd-footer-final p.copyright { float: left; }
+div#padd-footer-final p.annotation { float: right; }

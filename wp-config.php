@@ -21,7 +21,7 @@ define('DB_NAME', 'surpass200_wordpress');
 define('DB_USER', 'surpass200_test');
 
 /** MySQL数据库密码 */
-define('DB_PASSWORD', 'myfly0402');
+define('DB_PASSWORD', '**');/*common pass*/
 
 /** MySQL主机 */
 define('DB_HOST', 'localhost');
